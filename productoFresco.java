@@ -2,11 +2,6 @@ public class productoFresco extends Producto{
 
     public productoFresco ( String fechaCaducidad , int numeroLote , String fechaEnvasado , String paisOrigen){
         super (fechaCaducidad, numeroLote,fechaEnvasado, paisOrigen);
-        this.fechaCaducidad = fechaCaducidad;
-        this.numeroLote = numeroLote;
-        this.fechaEnvasado = fechaEnvasado;
-        this.paisOrigen = paisOrigen;
-
     }
 
     @Override
