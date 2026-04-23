@@ -43,6 +43,7 @@ public class Producto{
         this.paisOrigen = paisOrigen;
     }
 
+    //Mostrar info
     public void mostrarInfo(){
         System.out.println("Fecha de caducidad: " + getFechaCaducidad());
         System.out.println("Numero de lote: " + getNumeroLote());
