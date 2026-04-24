@@ -1,8 +1,8 @@
 public class ProductoRefrigerado extends ProductoTemperatura{
     private String codigoOrganismo;
 
-    ProductoRefrigerado(String codigoOrganismo , String fechaEnvasado ,double temperaturaRecomendada , String paisOrigen){
-        super( codigoOrganismo, fechaEnvasado, temperaturaRecomendada, paisOrigen);
+    ProductoRefrigerado(String fechaCaducidad, int numeroLote , String fechaEnvasado ,String paisOrigen, double temperaturaRecomendada ,String codigoOrganismo){
+        super(fechaCaducidad,numeroLote,fechaEnvasado, paisOrigen, temperaturaRecomendada );
         this.codigoOrganismo = codigoOrganismo;
 
     }  

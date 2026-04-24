@@ -36,10 +36,10 @@ public class Producto{
     }
 
     //Pais de Origen
-    public String getpaisOrigen(){
+    public String getPaisOrigen(){
         return paisOrigen;
     }
-    public void setpaisOrigen(String paisOrigen){
+    public void setPaisOrigen(String paisOrigen){
         this.paisOrigen = paisOrigen;
     }
 
@@ -48,6 +48,6 @@ public class Producto{
         System.out.println("Fecha de caducidad: " + getFechaCaducidad());
         System.out.println("Numero de lote: " + getNumeroLote());
         System.out.println("Fecha de Envasado: " + getFechaEnvasado());
-        System.out.println("Pais de origen: " + getpaisOrigen());
+        System.out.println("Pais de origen: " + getPaisOrigen());
     }
 }
