@@ -1,6 +1,6 @@
-public class productoFresco extends Producto{
+public class ProductoFresco extends Producto{
 
-    public productoFresco ( String fechaCaducidad , int numeroLote , String fechaEnvasado , String paisOrigen){
+    public ProductoFresco ( String fechaCaducidad , int numeroLote , String fechaEnvasado , String paisOrigen){
         super (fechaCaducidad, numeroLote,fechaEnvasado, paisOrigen);
     }
 

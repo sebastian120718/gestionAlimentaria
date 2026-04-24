@@ -1,7 +1,7 @@
-public class congeladoAgua extends productoCongelado{
+public class CongeladoAgua extends ProductoCongelado{
     private double salinidadAgua;
 
-    public congeladoAgua(String fechaCaducidad, int numeroLote, String fechaEnvasado, String paisOrigen, double temperaturaRecomendada, double salinidadAgua){
+    public CongeladoAgua(String fechaCaducidad, int numeroLote, String fechaEnvasado, String paisOrigen, double temperaturaRecomendada, double salinidadAgua){
         super(fechaCaducidad, numeroLote, fechaEnvasado, paisOrigen, temperaturaRecomendada);
         this.salinidadAgua = salinidadAgua;
 
@@ -21,8 +21,8 @@ public class congeladoAgua extends productoCongelado{
         System.out.println("Número lote: " + getNumeroLote());
         System.out.println("Fecha envasado: " + getFechaEnvasado());
         System.out.println("País origen: " + getPaisOrigen());
-        System.out.println("Temperatura recomendada: " + getTemperaturaRecomendada());
-        System.out.println("Salinidad agua: " + getSalinidadAgua());
+        System.out.println("Temperatura recomendada: " + getTemperaturaRecomendada() + " °C");
+        System.out.println("Salinidad del agua: " + getSalinidadAgua() + " g/L");
     }
 
 }

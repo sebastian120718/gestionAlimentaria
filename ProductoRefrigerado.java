@@ -1,7 +1,7 @@
-public class productoRefrigerado extends productoTemperatura{
+public class ProductoRefrigerado extends ProductoTemperatura{
     private String codigoOrganismo;
 
-    productoRefrigerado(String codigoOrganismo , String fechaEnvasado ,double temperaturaRecomendada , String paisOrigen){
+    ProductoRefrigerado(String codigoOrganismo , String fechaEnvasado ,double temperaturaRecomendada , String paisOrigen){
         super( codigoOrganismo, fechaEnvasado, temperaturaRecomendada, paisOrigen);
         this.codigoOrganismo = codigoOrganismo;
 

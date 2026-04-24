@@ -1,7 +1,7 @@
-public class productoTemperatura extends Producto{
+public class ProductoTemperatura extends Producto{
     private double temperaturaRecomendada;
 
-    public productoTemperatura(String fechaCaducidad, int numeroLote, String fechaEnvasado,String paisOrigen,double temperaturaRecomendada){
+    public ProductoTemperatura(String fechaCaducidad, int numeroLote, String fechaEnvasado,String paisOrigen,double temperaturaRecomendada){
         super(fechaCaducidad,numeroLote,fechaEnvasado,paisOrigen);
         this.temperaturaRecomendada = temperaturaRecomendada;
     }

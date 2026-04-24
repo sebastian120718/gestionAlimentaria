@@ -1,10 +1,10 @@
-public class congeladoAire extends productoCongelado {
+public class CongeladoAire extends ProductoCongelado {
     private double nitrogeno;
     private double oxigeno; 
     private double dioxidoCarbono;
     private double vaporAgua;
 
-    public congeladoAire(String fechaCaducidad, int numeroLote, String fechaEnvasado, String paisOrigen, double temperaturaRecomendada,double nitrogeno, double oxigeno, double dioxidoCarbono, double vaporAgua){
+    public CongeladoAire(String fechaCaducidad, int numeroLote, String fechaEnvasado, String paisOrigen, double temperaturaRecomendada,double nitrogeno, double oxigeno, double dioxidoCarbono, double vaporAgua){
         super(fechaCaducidad,numeroLote,fechaEnvasado,paisOrigen,temperaturaRecomendada);
         this.nitrogeno = nitrogeno;
         this.oxigeno = oxigeno;
@@ -47,10 +47,10 @@ public class congeladoAire extends productoCongelado {
         System.out.println("Número lote: " + getNumeroLote());
         System.out.println("Fecha envasado: " + getFechaEnvasado());
         System.out.println("País origen: " + getPaisOrigen());
-        System.out.println("Temperatura recomendada: " + getTemperaturaRecomendada());
-        System.out.println("Nitrógeno: " + getNitrogeno());
-        System.out.println("Oxígeno: " + getOxigeno());
-        System.out.println("CO2: " + getDioxidoCarbono());
-        System.out.println("Vapor agua: " + getVaporAgua());
+        System.out.println("Temperatura recomendada: " + getTemperaturaRecomendada() + " °C");
+        System.out.println("Nitrógeno: " + getNitrogeno() + "%");
+        System.out.println("Oxígeno: " + getOxigeno() + "%");
+        System.out.println("Dióxido de carbono: " + getDioxidoCarbono() + "%");
+        System.out.println("Vapor de agua: " + getVaporAgua() + "%");
     }
 }

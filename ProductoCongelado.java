@@ -1,6 +1,6 @@
-public class productoCongelado extends productoTemperatura{
+public class ProductoCongelado extends ProductoTemperatura{
 
-    public productoCongelado(String fechaCaducidad,int numeroLote, String fechaEnvasado,String paisOrigen,double temperaturaRecomendada){
+    public ProductoCongelado(String fechaCaducidad,int numeroLote, String fechaEnvasado,String paisOrigen,double temperaturaRecomendada){
         super(fechaCaducidad, numeroLote, fechaEnvasado, paisOrigen, temperaturaRecomendada);
     }
 
