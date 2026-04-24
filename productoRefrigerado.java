@@ -24,7 +24,7 @@ public class productoRefrigerado extends productoTemperatura{
         System.out.println("Fecha envasado: " + getFechaEnvasado());
         System.out.println("País origen: " + getPaisOrigen());
         System.out.println("Temperatura recomendada: " + getTemperaturaRecomendada());
-        System.out.println("Código organismo: " + codigoOrganismo);
+        System.out.println("Código organismo: " + getCodigoOrganismo());
     }
 
 }
