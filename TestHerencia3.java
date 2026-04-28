@@ -2,9 +2,7 @@ public class TestHerencia3 {
 
     public static void main(String[] args) {
 
-        // ==================================
-        // PRODUCTOS FRESCOS (2)
-        // ==================================
+        // Productos frescos: 2
         ProductoFresco fresco1 = new ProductoFresco(
                 "10/05/2026", 101,
                 "01/05/2026", "Perú");
@@ -13,10 +11,7 @@ public class TestHerencia3 {
                 "15/05/2026", 102,
                 "03/05/2026", "Chile");
 
-
-        // ==================================
-        // PRODUCTOS REFRIGERADOS (3)
-        // ==================================
+        // Productos refrigerados: 3
         ProductoRefrigerado refrigerado1 = new ProductoRefrigerado(
                 "20/05/2026", 201,
                 "05/05/2026", "Argentina",
@@ -32,10 +27,7 @@ public class TestHerencia3 {
                 "07/05/2026", "Uruguay",
                 5.0, "ORG-003");
 
-
-        // ==================================
-        // CONGELADOS POR AGUA (2)
-        // ==================================
+        // Congelados por agua: 2
         CongeladoAgua agua1 = new CongeladoAgua(
                 "30/06/2026", 301,
                 "10/05/2026", "Perú",
@@ -47,9 +39,7 @@ public class TestHerencia3 {
                 -20, 40);
 
 
-        // ==================================
-        // CONGELADOS POR AIRE (2)
-        // ==================================
+        // Congelados por aire: 2
         CongeladoAire aire1 = new CongeladoAire(
                 "10/07/2026", 401,
                 "12/05/2026", "Colombia",
@@ -61,18 +51,15 @@ public class TestHerencia3 {
                 -17, 79, 20, 0.04, 1);
 
 
-        // ==================================
-        // CONGELADO POR NITRÓGENO (1)
-        // ==================================
+        // Congelado por nitrogeno: 1
         CongeladoNitrogeno nitrogeno1 = new CongeladoNitrogeno(
                 "20/07/2026", 501,
                 "14/05/2026", "España",
                 -25, "Inmersión criogénica", 15);
 
 
-        // ==================================
-        // MOSTRAR INFORMACIÓN
-        // ==================================
+
+        // Mostrar info:
         System.out.println("========= PRODUCTOS FRESCOS =========");
         fresco1.mostrarInfo();
         System.out.println();
